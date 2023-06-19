@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>test</title>
+  <style>
+    input[type="text"] {
+      padding: 10px;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      outline: none;
+    }
+
+    input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    .center-button {
+      display: flex;
+      justify-content: center;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .container {
+      text-align: center;
+      margin-top: 200px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Music Analysis</h1>
+    <form action="/analyze" method="POST" class="center-button">
+      <input type="text" name="input_text" placeholder="input user id">
+      <input type="submit" value="SUBMIT">
+    </form>
+  </div>
+</body>
+
+</html>
+
