@@ -22,7 +22,7 @@
 
 ## 安装
 
-    git clone
+    git clone https://github.com/Binaryify/NeteaseCloudMusicApi.git
     cd NeteaseCloudMusicApi
     npm install
     pip install requests
